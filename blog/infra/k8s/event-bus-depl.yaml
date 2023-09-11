@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: event-bus
-          image: manishsingh/event-bus
+          image: manish332000/event-bus
 
 # Creating cluster IP service
 ---
