@@ -24,5 +24,7 @@ spec:
   selector:
     app: posts
   ports:
-    - port: 4000
+    - name: posts
+      protocol: TCP
+      port: 4000
       targetPort: 4000
